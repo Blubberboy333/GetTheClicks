@@ -1,0 +1,22 @@
+<!DOCKTYPE html>
+<html>
+	<body bgcolor="Aqua">
+		<h2>Get The Clicks!</h2>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h1 align="center">Amount of clicks: <span id="clicks">0</span></h1>
+		<br>
+		<br>
+		<p align="center"><button type="button" onClick="clickFunction()">Click me!</button></p>
+		<script>
+			var x=0;
+			
+			function clickFunction() {
+				document.getElementById('clicks').innerHTML = x+=1;
+			}
+		</script>
+	</body>
+</html>
